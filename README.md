@@ -9,7 +9,7 @@ Engine: Bing\
 \
 Result: 12,22(not always the same)\
 \
-Note: Advertisements have been excluded.\
+Note: Advertisements have been excluded.
 
 
 
