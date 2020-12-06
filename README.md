@@ -11,6 +11,11 @@ Result: 12,22(not always the same)\
 \
 Note: Advertisements have been excluded.
 
+# Features
+1.React hooks\
+2.Styled Component\
+3.fetch
+
 # Warning
 You might need to change the url from port 44384 to 5001 when you run the backend on a mac.
 
