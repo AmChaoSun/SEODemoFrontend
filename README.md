@@ -1,16 +1,16 @@
 # Instructions
-This is the frontend part for SEO Demo.
-Please run this app along side with running the backend part locally, the cors issue has been fixed.
-
-Example:
-Input:online title search
-Target: https://www.infotrack.com.au
-Engine: Bing
-
-Result: 12,22(not always the same)
-
-Note: Advertisements have been excluded.
-
+This is the frontend part for SEO Demo.\
+Please run this app along side with running the backend part locally, the cors issue has been fixed.\
+\
+Example:\
+Input:online title search\
+Target: https://www.infotrack.com.au\
+Engine: Bing\
+\
+Result: 12,22(not always the same)\
+\
+Note: Advertisements have been excluded.\
+\\
 
 
 # Getting Started with Create React App
