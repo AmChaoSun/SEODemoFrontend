@@ -32,9 +32,6 @@ function App(){
 
     async function fetchData() {
       setIsSending(true);
-      setInput(document.querySelector('#input').value);
-      setTarget(document.querySelector('#target').value);
-      setSelect(document.querySelector('Select').value);
 
       const response = await fetch(URL,{
         method : 'POST',
@@ -51,6 +48,9 @@ function App(){
       const json = await response.json();
       
       setResult(json);
+      setInput(document.querySelector('#input').value);
+      setTarget(document.querySelector('#target').value);
+      setSelect(document.querySelector('Select').value);
       setIsSending(false);
     }
     fetchData();
@@ -69,13 +69,13 @@ function App(){
         SEO Demo
       </h1>
       <div>
-        <lable>Input: </lable>
+        <label>Input: </label>
         <input id="input" placeholder="What do you want to search? e.g. online title search"></input>
         <br></br><br></br>
-        <lable>Target: </lable>
+        <label>Target: </label>
         <input id="target" placeholder="What do you want to check in the records? e.g. https://www.infotrack.com.au"></input>
         <br></br><br></br>
-        <lable>Engine: </lable>
+        <label>Engine: </label>
         <Selector></Selector>
         <br></br><br></br>
         <button type="button" disabled={isSending} onClick={() => setCount(count + 1)}>Search</button>

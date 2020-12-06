@@ -24,20 +24,24 @@ function SearchResult(props){
 
     return(
         <Table>
-        <tr>
-          <Th>Input</Th>
-          <Th>Target</Th>
-          <Th>Engine</Th>
-          <Th>Result</Th>
-          <Th>Date</Th>
-        </tr>
-        {result == null? <tr></tr>:<tr>
-          <Td>{input}</Td>
-          <Td>{target}</Td>
-          <Td>{engine}</Td>
-          <Td>{result}</Td>
-          <Td>{new Date().toTimeString()}</Td>
-        </tr>}
+        <thead>
+            <tr>
+                <Th>Input</Th>
+                <Th>Target</Th>
+                <Th>Engine</Th>
+                <Th>Result</Th>
+                <Th>Date</Th>
+            </tr>
+        </thead>
+        <tbody>
+            {result == null? <tr></tr>:<tr>
+            <Td>{input}</Td>
+            <Td>{target}</Td>
+            <Td>{engine}</Td>
+            <Td>{result}</Td>
+            <Td>{new Date().toTimeString()}</Td>
+            </tr>}
+        </tbody>
       </Table>
     )
 }
