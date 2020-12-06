@@ -10,7 +10,7 @@ Engine: Bing\
 Result: 12,22(not always the same)\
 \
 Note: Advertisements have been excluded.\
-\
+
 
 
 # Getting Started with Create React App
