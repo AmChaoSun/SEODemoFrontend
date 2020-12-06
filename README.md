@@ -1,5 +1,5 @@
 # Instructions
-This is the frontend part for SEO Demo.\
+This is a simple frontend part for SEO Demo.\
 Please run this app along side with running the backend part locally, the cors issue has been fixed.\
 \
 Example:\
@@ -11,6 +11,8 @@ Result: 12,22(not always the same)\
 \
 Note: Advertisements have been excluded.
 
+# Warning
+You might need to change the url from port 44384 to 5001 when you run the backend on a mac.
 
 
 # Getting Started with Create React App
